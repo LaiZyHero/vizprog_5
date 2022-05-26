@@ -1,0 +1,86 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<Design.PreviewWith>
+		<Border Height="100" Width="100">
+			<Button Classes="SetRegex"></Button>
+		</Border>
+	</Design.PreviewWith>
+
+	<Style Selector="Button.SaveFile">
+		<Setter Property="VerticalAlignment" Value="Stretch"/>
+		<Setter Property="HorizontalAlignment" Value="Stretch"/>
+		<Setter Property="HorizontalContentAlignment" Value="Center"/>
+		<Setter Property="VerticalContentAlignment" Value="Center"/>
+		<Setter Property="FontSize" Value="20"/>
+		<Setter Property="Background" Value="Gray"/>
+		<Setter Property="Foreground" Value="White"/>
+	</Style>
+
+	<Style Selector="Button.OpenFile">
+		<Setter Property="VerticalAlignment" Value="Stretch"/>
+		<Setter Property="HorizontalAlignment" Value="Stretch"/>
+		<Setter Property="HorizontalContentAlignment" Value="Center"/>
+		<Setter Property="VerticalContentAlignment" Value="Center"/>
+		<Setter Property="FontSize" Value="20"/>
+		<Setter Property="Background" Value="Gray"/>
+		<Setter Property="Foreground" Value="White"/>
+	</Style>
+
+	<Style Selector="Button.SetRegex">
+		<Setter Property="VerticalAlignment" Value="Stretch"/>
+		<Setter Property="HorizontalAlignment" Value="Stretch"/>
+		<Setter Property="HorizontalContentAlignment" Value="Center"/>
+		<Setter Property="VerticalContentAlignment" Value="Center"/>
+		<Setter Property="FontSize" Value="20"/>
+		<Setter Property="Background" Value="Gray"/>
+		<Setter Property="Foreground" Value="White"/>
+	</Style>
+
+	<Style Selector="Button.OK">
+		<Setter Property="VerticalAlignment" Value="Stretch"/>
+		<Setter Property="HorizontalAlignment" Value="Stretch"/>
+		<Setter Property="HorizontalContentAlignment" Value="Center"/>
+		<Setter Property="VerticalContentAlignment" Value="Center"/>
+		<Setter Property="FontSize" Value="20"/>
+		<Setter Property="Background" Value="BlueViolet"/>
+		<Setter Property="Foreground" Value="White"/>
+	</Style>
+
+	<Style Selector="Button.Cancel">
+		<Setter Property="VerticalAlignment" Value="Stretch"/>
+		<Setter Property="HorizontalAlignment" Value="Stretch"/>
+		<Setter Property="HorizontalContentAlignment" Value="Center"/>
+		<Setter Property="VerticalContentAlignment" Value="Center"/>
+		<Setter Property="FontSize" Value="20"/>
+		<Setter Property="Background" Value="Gray"/>
+		<Setter Property="Foreground" Value="White"/>
+	</Style>
+
+
+	<Style Selector="TextBox.TextStringBox">
+		<Setter Property="VerticalAlignment" Value="Stretch"/>
+		<Setter Property="HorizontalAlignment" Value="Stretch"/>
+		<Setter Property="AcceptsReturn" Value="True"/>
+		<Setter Property="TextWrapping" Value="Wrap"/>
+		<Setter Property="Padding" Value="0, 15, 0, 0"/>
+		<Setter Property="FontSize" Value="16"/>
+		<Setter Property="TextAlignment" Value="Left"/>
+		<Setter Property="Foreground" Value="Black"/>
+		<Setter Property="Background" Value="White"/>
+		<Setter Property="IsUndoEnabled" Value="False"/>
+		<Setter Property="Focusable" Value="True"/>
+	</Style>
+
+	<Style Selector="TextBox.ResultStringBox">
+		<Setter Property="VerticalAlignment" Value="Stretch"/>
+		<Setter Property="HorizontalAlignment" Value="Stretch"/>
+		<Setter Property="AcceptsReturn" Value="True"/>
+		<Setter Property="TextWrapping" Value="Wrap"/>
+		<Setter Property="Padding" Value="0, 15, 0, 0"/>
+		<Setter Property="FontSize" Value="16"/>
+		<Setter Property="Foreground" Value="Gray"/>
+		<Setter Property="Background" Value="White"/>
+		<Setter Property="IsUndoEnabled" Value="False"/>
+		<Setter Property="Focusable" Value="False"/>
+	</Style>
+</Styles>

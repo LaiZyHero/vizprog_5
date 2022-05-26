@@ -1,0 +1,28 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:lab_5.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="450" d:DesignHeight="450"
+        x:Class="lab_5.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="RegexApp"
+        MinHeight="450"
+        MinWidth="450"
+        MaxHeight="450"
+        MaxWidth="450">
+
+
+	<Window.Styles>
+		<StyleInclude Source="/Styles/Style.axaml"/>
+	</Window.Styles>
+
+	<Grid Classes="Regexs" ShowGridLines="False" ColumnDefinitions="*,  *, *, *" RowDefinitions="*,  *, *, *, *, *, *">
+		<TextBox Name="Text" Classes="TextStringBox" Text="{Binding Text}" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="5"/>
+		<TextBox Name="Regex" Classes="ResultStringBox" Text="{Binding Result}" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="5"/>
+		<Button Name="OpenFile" Classes="OpenFile" Content="Open File" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="1"/>
+		<Button Name="SaveFile" Classes="SaveFile" Content="Save File" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="1"/>
+		<Button Name="SetRegex" Click="MyClickEventHandler" Classes="SetRegex" Content="Set Regex" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="1"/>
+	</Grid>
+
+</Window>
